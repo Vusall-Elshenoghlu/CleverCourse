@@ -1,67 +1,99 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-body {
-    font-family: Arial, sans-serif;
-   
-}
-
-
-.social-icons {
-    display: flex;
-    gap: 15px;
-}
-
-.social-icons a {
-    color: #999;
-    font-size: 16px;
-    text-decoration: none;
-    transition: color 0.3s ease;
-}
-
-.social-icons a:hover {
-    color: #333;
-}
-
-.auth-links {
-    display: flex;
+.container{width: 80%;
+    margin: 0 auto;
+    padding: 10px 0px;}
+    
+    .headone{display: flex;
     align-items: center;
-    gap: 10px;
-    font-size: 14px;
+    justify-content: space-between;
 }
-
-.auth-links a {
-    color: #999;
-    text-decoration: none;
-    transition: color 0.3s ease;
-}
-
-.auth-links a:hover {
-    color: #333;
-}
-
-.auth-links span {
-    color: #999;
-}
-
-.big-nav{
-    height: 80px;
-    width: 100%;
-    background-color: white#FFFFFF;
-}
-.big-nav{
-    display: flex;
-    justify-content: space-evenly;
+    
+    .headone-left{display: flex;
     align-items: center;
+    gap: 40px;}
+    
+    
+    .headone-right{display: flex;
+        align-items: center;
+        gap: 40px;}
+    
+    .leftone{color: grey;
+    font-size: 17px;}
+    
+    .lefttwo{color: grey;
+    font-size: 17px;}
+    
+    .rightone{color: grey;
+        font-size: 17px;
+    display: flex;
+    gap: 20px;}
+    
+    .righttwo a{color: grey;
+        font-size: 17px;
+        text-decoration: none;
+        padding: 0px 10px;
+    
+    
+    }
+    
+
+    
+.headtwo-left{  display: flex;
+align-items: center;
+font-size: 33px;
+gap: 10px;}
+
+ nav{border-bottom:1px solid rgb(219, 218, 218);
 }
-.big-header .navlist a{
-    text-decoration: none;
-    color: #999;
+.headtwo{display: flex;
+align-items: center;
+justify-content: space-between;
+padding: 10px;
 }
-#slider{
-    height: 55vh;
-    background-image: url(/pictures/slider-3.jpg);
-    background-size: cover;
+
+.headtwo-right{ display: flex;
+align-items: center;
+gap: 20px;}
+
+.headtwo-right ul{ display: flex;
+    align-items: center;
+gap: 30px;
+color: grey;}
+
+.headtwo-right ul a{ text-decoration: none;
+    color: grey;
+
 }
+
+.fa-magnifying-glass{font-size: 20px;}
+
+.icon{margin-bottom:10px ;
+color: grey;}
+
+
+.hero{display: flex;
+align-items: center;
+justify-content: space-evenly;
+width: 80%;
+margin: 0 auto;
+}
+
+.icon-div{text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+width: 20%;}
+
+
+.icon-div h1{font-size: 23px;
+color: grey;}
+
+.icon-div i{font-size: 60px;
+color: grey;}
+
+.icon-div p{font-size: 23px;
+color: grey;}
+
+
+
+
+
