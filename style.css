@@ -1,99 +1,188 @@
-.container{width: 80%;
-    margin: 0 auto;
-    padding: 10px 0px;}
-    
-    .headone{display: flex;
+
+#slider{
+    height: 45vh;
+    background-image: url(/pictures/slider-3.jpg);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
     align-items: center;
+    position: relative;   
+}
+#slider .online{
+    position: absolute;
+    text-align: center;
+    height: 400px;
+    width: 600px;
+    margin-left: 700px;
+    padding-top: 80px;
+}
+#slider .online .improve{
+    text-align: center;
+    color: #8F8F8F;
+    font-size: 40px;
+}
+#slider .online .btn{
+    height: 50px;
+    width: 120px;
+    background-color: #72D4CC;
+}
+
+
+.controller{
+    display: flex;
+    align-items: center;
+    /* position: absolute; */
+    top: 50%;
+    left: 0%;
+    font-size:50px ;
+    z-index: 5;
+    color:white;
+    width: 100%;
+
+}
+
+.fa-angle-right{
+    position: absolute;
+    right:  3%;
+}
+
+.fa-angle-left{
+    position: absolute;
+    left:  3%;
+}
+#recent{
+    height: 60vh;
+    background-color: white;
+}
+.icons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10%;
+    /* position: absolute; */
+    top: 55%;
+    left: 40%;
+    font-size:50px ;
+    z-index: 5;
+    color:white;
+    width: 100%;
+    gap: 40px;
+}
+.columns{
+    margin-top: 70px;
+}
+.bodyy{
+    background-color: #F5F5F5;
+}
+.btnn-a{
+    background-color: #72D5CD !important;
+    border: none !important;
+    
+    height: 40px;
+    width: 100px;
+    border-radius: 0px !important;
+}
+.buttons{
+    display: flex;
+}
+#recentNews{
+    height: 55vh;
+    display: flex;justify-content: center;align-items: center;
+}
+
+.containerr {
+    display: flex;
     justify-content: space-between;
+    align-items: flex-start;
+    margin: 0 auto;
+    width: 60%;
 }
-    
-    .headone-left{display: flex;
-    align-items: center;
-    gap: 40px;}
-    
-    
-    .headone-right{display: flex;
-        align-items: center;
-        gap: 40px;}
-    
-    .leftone{color: grey;
-    font-size: 17px;}
-    
-    .lefttwo{color: grey;
-    font-size: 17px;}
-    
-    .rightone{color: grey;
-        font-size: 17px;
+
+.recent-news, .school-walkthrough, .featured-instructor {
+    width: 30%;
+}
+
+.recent-news h2, .school-walkthrough h2, .featured-instructor h2 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+
+.recent-news ul {
+    list-style: none;
+    padding: 0;
+}
+
+.recent-news li {
     display: flex;
-    gap: 20px;}
-    
-    .righttwo a{color: grey;
-        font-size: 17px;
-        text-decoration: none;
-        padding: 0px 10px;
-    
-    
-    }
-    
-
-    
-.headtwo-left{  display: flex;
-align-items: center;
-font-size: 33px;
-gap: 10px;}
-
- nav{border-bottom:1px solid rgb(219, 218, 218);
-}
-.headtwo{display: flex;
-align-items: center;
-justify-content: space-between;
-padding: 10px;
-}
-
-.headtwo-right{ display: flex;
-align-items: center;
-gap: 20px;}
-
-.headtwo-right ul{ display: flex;
     align-items: center;
-gap: 30px;
-color: grey;}
-
-.headtwo-right ul a{ text-decoration: none;
-    color: grey;
-
+    margin-bottom: 20px;
+    border-bottom: 3px solid skyblue;
+    padding: 20px ;   
+    background-color:#F5F5F5;
 }
 
-.fa-magnifying-glass{font-size: 20px;}
-
-.icon{margin-bottom:10px ;
-color: grey;}
-
-
-.hero{display: flex;
-align-items: center;
-justify-content: space-evenly;
-width: 80%;
-margin: 0 auto;
+.recent-news img {
+    width: 60px;
+    height: 60px;
+    margin-right: 10px;
+    border-radius: 0px;
 }
 
-.icon-div{text-align: center;
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-width: 20%;}
+.recent-news h3 {
+    font-size: 16px;
+    margin: 0;
+}
 
+.recent-news p {
+    font-size: 12px;
+    color: #777;
+}
 
-.icon-div h1{font-size: 23px;
-color: grey;}
+.school-walkthrough video {
+    margin-bottom: 20px;
+    width: 100%;
+}
 
-.icon-div i{font-size: 60px;
-color: grey;}
+.school-walkthrough h3 {
+    font-size: 16px;
+    margin: 10px 0;
+}
 
-.icon-div p{font-size: 23px;
-color: grey;}
+.school-walkthrough p {
+    font-size: 15px;
+    color: #777;
+}
 
+.featured-instructor .profile {
+    text-align: center;
+}
 
+.featured-instructor img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
 
+.featured-instructor h3 {
+    font-size: 16px;
+    color: #66cdaa;
+    margin-bottom: 5px;
+}
 
+.featured-instructor p {
+    font-size: 12px;
+    color: #777;
+    margin-bottom: 20px;
+}
 
+.featured-instructor button {
+    background-color: #66cdaa;
+    border: none;
+    padding: 10px 20px;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+}
